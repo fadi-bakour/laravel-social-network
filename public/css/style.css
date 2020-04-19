@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul {
+    list-style: none;
+}
+.cover{
+    position: relative;
+}
+.profile_img_div{
+    position: absolute;
+    bottom: 0;
+    transform: translatex(-50%) translatey(50%);
+    left: 50%;
+    
+
+}
+.cover_img_link {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+img.cover_img_link:hover{
+    opacity: 50%;
+}
+
+.cover_img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.avatar {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+}
+.avatar_friend{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.news_img{
+    height: 150px;
+    object-fit: cover;
+}
+.addimage {
+    height: 35px;
+}
+
