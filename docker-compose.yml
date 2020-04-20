@@ -79,3 +79,5 @@ services:
     entrypoint: ['php', '/var/www/html/artisan']
     networks:
       - laravel
+
+      
