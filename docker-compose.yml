@@ -4,14 +4,14 @@ networks:
   laravel:
 
 services:
-  nginx:
-    image: nginx:stable-alpine
-    container_name: nginx
+  day_in_malaysia:
+    image: day_in_malaysia:stable-alpine
+    container_name: day_in_malaysia
     ports:
       - "8080:80"
     volumes:
       - ./src:/var/www/html
-      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./day_in_malaysia/default.conf:/etc/day_in_malaysia/conf.d/default.conf
     depends_on:
       - php
       - mysql
